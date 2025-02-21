@@ -1,4 +1,4 @@
-Algoritmo "Exercício - Matriz Geral"
+Algoritmo "ExercÃ­cio - Matriz Geral"
 
 Var
 
