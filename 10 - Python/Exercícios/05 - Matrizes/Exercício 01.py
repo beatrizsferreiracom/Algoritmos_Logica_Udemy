@@ -1,4 +1,4 @@
-#Exemplo 13 - Matrizes
+#Exercício - Diagonal Negativos
 
 ordem = int(input("Qual a ordem da matriz? "))
 
