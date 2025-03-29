@@ -1,4 +1,4 @@
-//Exercício - Dentro Fora
+//Exercício - Par ímpar
 
 #include <stdio.h>
 
