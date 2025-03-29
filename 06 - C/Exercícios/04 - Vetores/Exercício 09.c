@@ -17,7 +17,7 @@ int main(){
 
         printf("\nDados da %da pessoa:\n", i+1);
         printf("Nome: ");
-		scanf("%s", &nome[i][0]);
+	scanf("%s", &nome[i][0]);
         printf("Idade: ");
         scanf("%d", &idade[i]);
     }
