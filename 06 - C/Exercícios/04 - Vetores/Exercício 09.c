@@ -13,9 +13,6 @@ int main(){
     char nome[N][50];
     int idade[N];
 
-    maisVelho = idade[0];
-    posicao = 0;
-
     for(i = 0; i < N; i++){
 
         printf("\nDados da %da pessoa:\n", i+1);
@@ -23,6 +20,12 @@ int main(){
 		scanf("%s", &nome[i][0]);
         printf("Idade: ");
         scanf("%d", &idade[i]);
+    }
+
+    maisVelho = idade[0];
+    posicao = 0;
+
+    for(i = 0; i < N; i++){
 
         if(idade[i] > maisVelho){
             maisVelho = idade[i];
